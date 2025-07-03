@@ -471,23 +471,6 @@
     "_ui_card_view_SelectionChangedEvent.selectedCardsData": {
       "vue": "selected-cards-data"
     },
-    "_ui_card_view_SelectionChangingEvent": {
-      "angular": "dxo-ui-card-view--selection-changing-event",
-      "react": "_ui_card_view_SelectionChangingEvent",
-      "vue": "Dx_ui_card_view_SelectionChangingEvent"
-    },
-    "_ui_card_view_SelectionChangingEvent.currentDeselectedCardKeys": {
-      "vue": "current-deselected-card-keys"
-    },
-    "_ui_card_view_SelectionChangingEvent.currentSelectedCardKeys": {
-      "vue": "current-selected-card-keys"
-    },
-    "_ui_card_view_SelectionChangingEvent.selectedCardKeys": {
-      "vue": "selected-card-keys"
-    },
-    "_ui_card_view_SelectionChangingEvent.selectedCardsData": {
-      "vue": "selected-cards-data"
-    },
     "_ui_chat_DisposingEvent": {
       "angular": "dxo-ui-chat--disposing-event",
       "react": "_ui_chat_DisposingEvent",
@@ -5976,6 +5959,51 @@
     "adaptiveDetailRowPreparingInfo.formOptions": {
       "vue": "form-options"
     },
+    "aiChangeStyleCommand": {
+      "angular": "dxo-a-i-change-style-command",
+      "react": "AIChangeStyleCommand",
+      "vue": "DxAIChangeStyleCommand"
+    },
+    "aiChangeToneCommand": {
+      "angular": "dxo-a-i-change-tone-command",
+      "react": "AIChangeToneCommand",
+      "vue": "DxAIChangeToneCommand"
+    },
+    "aiCommand": {
+      "angular": "dxo-a-i-command",
+      "react": "AICommand",
+      "vue": "DxAICommand"
+    },
+    "aiCommandBase": {
+      "vue": "a-i-command-base"
+    },
+    "aiCommandBase.name": {
+      "angular": "dxo-name",
+      "react": "Name",
+      "vue": "DxName"
+    },
+    "aiCommandNameExtended": {
+      "vue": "a-i-command-name-extended"
+    },
+    "aiCustomCommand": {
+      "vue": "a-i-custom-command"
+    },
+    "aiIntegration": {
+      "vue": "a-i-integration"
+    },
+    "aiToolbarItem": {
+      "vue": "a-i-toolbar-item"
+    },
+    "aiToolbarItem.commands": {
+      "angular": "dxi-command",
+      "react": "Command",
+      "vue": "DxCommand"
+    },
+    "aiTranslateCommand": {
+      "angular": "dxo-a-i-translate-command",
+      "react": "AITranslateCommand",
+      "vue": "DxAITranslateCommand"
+    },
     "alert": {
       "angular": "dxo-alert",
       "react": "Alert",
@@ -6775,6 +6803,38 @@
       "react": "Column",
       "vue": "DxColumn"
     },
+    "columnChooser": {
+      "angular": "dxo-column-chooser",
+      "react": "ColumnChooser",
+      "vue": "DxColumnChooser"
+    },
+    "columnChooser.allowSearch": {
+      "vue": "allow-search"
+    },
+    "columnChooser.emptyPanelText": {
+      "vue": "empty-panel-text"
+    },
+    "columnChooser.position": {
+      "angular": "dxo-position",
+      "react": "Position",
+      "vue": "DxPosition"
+    },
+    "columnChooser.search": {
+      "angular": "dxo-search",
+      "react": "Search",
+      "vue": "DxSearch"
+    },
+    "columnChooser.searchTimeout": {
+      "vue": "search-timeout"
+    },
+    "columnChooser.selection": {
+      "angular": "dxo-selection",
+      "react": "Selection",
+      "vue": "DxSelection"
+    },
+    "columnChooser.sortOrder": {
+      "vue": "sort-order"
+    },
     "columnChooserSearchConfig": {
       "angular": "dxo-column-chooser-search-config",
       "react": "ColumnChooserSearchConfig",
@@ -6793,6 +6853,31 @@
     },
     "columnChooserSelectionConfig.selectByClick": {
       "vue": "select-by-click"
+    },
+    "columnHeaderFilter": {
+      "angular": "dxo-column-header-filter",
+      "react": "ColumnHeaderFilter",
+      "vue": "DxColumnHeaderFilter"
+    },
+    "columnHeaderFilter.allowSearch": {
+      "vue": "allow-search"
+    },
+    "columnHeaderFilter.allowSelectAll": {
+      "vue": "allow-select-all"
+    },
+    "columnHeaderFilter.dataSource": {
+      "vue": "data-source"
+    },
+    "columnHeaderFilter.groupInterval": {
+      "vue": "group-interval"
+    },
+    "columnHeaderFilter.search": {
+      "angular": "dxo-search",
+      "react": "Search",
+      "vue": "DxSearch"
+    },
+    "columnHeaderFilter.searchMode": {
+      "vue": "search-mode"
     },
     "columnHeaderFilterSearchConfig": {
       "angular": "dxo-column-header-filter-search-config",
@@ -7995,6 +8080,11 @@
       "react": "Popup",
       "vue": "DxPopup"
     },
+    "dxCardViewEditing.texts": {
+      "angular": "dxo-texts",
+      "react": "Texts",
+      "vue": "DxTexts"
+    },
     "dxCardViewFieldInfo": {
       "angular": "dxo-card-view-field-info",
       "react": "DxCardViewFieldInfo",
@@ -8198,9 +8288,6 @@
     "dxCardViewOptions.onSelectionChanged": {
       "vue": "@selection-changed"
     },
-    "dxCardViewOptions.onSelectionChanging": {
-      "vue": "@selection-changing"
-    },
     "dxCardViewOptions.pager": {
       "angular": "dxo-pager",
       "react": "Pager",
@@ -8221,6 +8308,18 @@
       "react": "Scrolling",
       "vue": "DxScrolling"
     },
+    "dxCardViewOptions.scrolling.scrollByContent": {
+      "vue": "scroll-by-content"
+    },
+    "dxCardViewOptions.scrolling.scrollByThumb": {
+      "vue": "scroll-by-thumb"
+    },
+    "dxCardViewOptions.scrolling.showScrollbar": {
+      "vue": "show-scrollbar"
+    },
+    "dxCardViewOptions.scrolling.useNative": {
+      "vue": "use-native"
+    },
     "dxCardViewOptions.searchPanel": {
       "angular": "dxo-search-panel",
       "react": "SearchPanel",
@@ -8234,6 +8333,11 @@
       "react": "Selection",
       "vue": "DxSelection"
     },
+    "dxCardViewOptions.sorting": {
+      "angular": "dxo-sorting",
+      "react": "Sorting",
+      "vue": "DxSorting"
+    },
     "dxCardViewOptions.toolbar": {
       "angular": "dxo-toolbar",
       "react": "Toolbar",
@@ -8241,6 +8345,21 @@
     },
     "dxCardViewOptions.wordWrapEnabled": {
       "vue": "word-wrap-enabled"
+    },
+    "dxCardViewToolbar": {
+      "angular": "dxo-card-view-toolbar",
+      "react": "DxCardViewToolbar",
+      "vue": "DxCardViewToolbar"
+    },
+    "dxCardViewToolbar.items": {
+      "angular": "dxi-item",
+      "react": "Item",
+      "vue": "DxItem"
+    },
+    "dxCardViewToolbarItem": {
+      "angular": "dxo-card-view-toolbar-item",
+      "react": "DxCardViewToolbarItem",
+      "vue": "DxCardViewToolbarItem"
     },
     "dxChart": {
       "angular": "dx-chart",
@@ -8275,9 +8394,6 @@
       "angular": "dxo-argument-axis",
       "react": "ArgumentAxis",
       "vue": "DxArgumentAxis"
-    },
-    "dxChartOptions.argumentAxis.aggregateByCategory": {
-      "vue": "aggregate-by-category"
     },
     "dxChartOptions.argumentAxis.aggregationGroupWidth": {
       "vue": "aggregation-group-width"
@@ -10201,9 +10317,6 @@
       "angular": "dxi-item",
       "react": "Item",
       "vue": "DxItem"
-    },
-    "dxContextMenuOptions.closeOnOutsideClick": {
-      "vue": "close-on-outside-click"
     },
     "dxContextMenuOptions.dataSource": {
       "vue": "data-source"
@@ -13964,12 +14077,6 @@
     "dxHtmlEditorToolbarItem.acceptedValues": {
       "vue": "accepted-values"
     },
-    "dxHtmlEditorToolbarItem.formatName": {
-      "vue": "format-name"
-    },
-    "dxHtmlEditorToolbarItem.formatValues": {
-      "vue": "format-values"
-    },
     "dxHtmlEditorVariables": {
       "angular": "dxo-html-editor-variables",
       "react": "DxHtmlEditorVariables",
@@ -14413,9 +14520,6 @@
     "dxLookupOptions.focusStateEnabled": {
       "vue": "focus-state-enabled"
     },
-    "dxLookupOptions.fullScreen": {
-      "vue": "full-screen"
-    },
     "dxLookupOptions.groupTemplate": {
       "vue": "group-template"
     },
@@ -14538,9 +14642,6 @@
     },
     "dxLookupOptions.usePopover": {
       "vue": "use-popover"
-    },
-    "dxLookupOptions.valueChangeEvent": {
-      "vue": "value-change-event"
     },
     "dxMap": {
       "angular": "dx-map",
@@ -14991,9 +15092,6 @@
     },
     "dxOverlayOptions.activeStateEnabled": {
       "vue": "active-state-enabled"
-    },
-    "dxOverlayOptions.closeOnOutsideClick": {
-      "vue": "close-on-outside-click"
     },
     "dxOverlayOptions.contentTemplate": {
       "vue": "content-template"
@@ -16500,9 +16598,6 @@
       "react": "Show",
       "vue": "DxShow"
     },
-    "dxPopoverOptions.closeOnOutsideClick": {
-      "vue": "close-on-outside-click"
-    },
     "dxPopoverOptions.dragAndResizeArea": {
       "vue": "drag-and-resize-area"
     },
@@ -16769,9 +16864,6 @@
     "dxRangeSelectorOptions.behavior.animationEnabled": {
       "vue": "animation-enabled"
     },
-    "dxRangeSelectorOptions.behavior.callValueChanged": {
-      "vue": "call-value-changed"
-    },
     "dxRangeSelectorOptions.behavior.manualRangeSelectionEnabled": {
       "vue": "manual-range-selection-enabled"
     },
@@ -16904,9 +16996,6 @@
       "angular": "dxo-scale",
       "react": "Scale",
       "vue": "DxScale"
-    },
-    "dxRangeSelectorOptions.scale.aggregateByCategory": {
-      "vue": "aggregate-by-category"
     },
     "dxRangeSelectorOptions.scale.aggregationGroupWidth": {
       "vue": "aggregation-group-width"
@@ -18055,9 +18144,6 @@
     "dxSelectBoxOptions.showSelectionControls": {
       "vue": "show-selection-controls"
     },
-    "dxSelectBoxOptions.valueChangeEvent": {
-      "vue": "value-change-event"
-    },
     "dxSlider": {
       "angular": "dx-slider",
       "react": "Slider",
@@ -19133,9 +19219,6 @@
     },
     "dxToastOptions.closeOnClick": {
       "vue": "close-on-click"
-    },
-    "dxToastOptions.closeOnOutsideClick": {
-      "vue": "close-on-outside-click"
     },
     "dxToastOptions.closeOnSwipe": {
       "vue": "close-on-swipe"
@@ -20413,6 +20496,29 @@
     "dxVectorMapOptions.zoomingEnabled": {
       "vue": "zooming-enabled"
     },
+    "editingTexts": {
+      "angular": "dxo-editing-texts",
+      "react": "EditingTexts",
+      "vue": "DxEditingTexts"
+    },
+    "editingTexts.addCard": {
+      "vue": "add-card"
+    },
+    "editingTexts.confirmDeleteMessage": {
+      "vue": "confirm-delete-message"
+    },
+    "editingTexts.confirmDeleteTitle": {
+      "vue": "confirm-delete-title"
+    },
+    "editingTexts.deleteCard": {
+      "vue": "delete-card"
+    },
+    "editingTexts.editCard": {
+      "vue": "edit-card"
+    },
+    "editingTexts.saveCard": {
+      "vue": "save-card"
+    },
     "editorOptions.isDirty": {
       "vue": "is-dirty"
     },
@@ -20450,6 +20556,9 @@
     },
     "enums.AggregatedPointsPosition": {
       "vue": "aggregated-points-position"
+    },
+    "enums.AICommandName": {
+      "vue": "a-i-command-name"
     },
     "enums.AllDayPanelMode": {
       "vue": "all-day-panel-mode"
@@ -21111,9 +21220,6 @@
     "enums.ValueAxisVisualRangeUpdateMode": {
       "vue": "value-axis-visual-range-update-mode"
     },
-    "enums.ValueChangedCallMode": {
-      "vue": "value-changed-call-mode"
-    },
     "enums.ValueErrorBarDisplayMode": {
       "vue": "value-error-bar-display-mode"
     },
@@ -21234,6 +21340,34 @@
     },
     "fileSystemItem.pathKeys": {
       "vue": "path-keys"
+    },
+    "filterPanel": {
+      "vue": "filter-panel"
+    },
+    "filterPanel.customizeText": {
+      "vue": "customize-text"
+    },
+    "filterPanel.filterEnabled": {
+      "vue": "filter-enabled"
+    },
+    "filterPanel.texts": {
+      "angular": "dxo-texts",
+      "react": "Texts",
+      "vue": "DxTexts"
+    },
+    "filterPanelTexts": {
+      "angular": "dxo-filter-panel-texts",
+      "react": "FilterPanelTexts",
+      "vue": "DxFilterPanelTexts"
+    },
+    "filterPanelTexts.clearFilter": {
+      "vue": "clear-filter"
+    },
+    "filterPanelTexts.createFilter": {
+      "vue": "create-filter"
+    },
+    "filterPanelTexts.filterEnabledHint": {
+      "vue": "filter-enabled-hint"
     },
     "font": {
       "angular": "dxo-font",
@@ -21360,26 +21494,6 @@
       "react": "HeaderFilter",
       "vue": "DxHeaderFilter"
     },
-    "gridBaseColumn.headerFilter.allowSearch": {
-      "vue": "allow-search"
-    },
-    "gridBaseColumn.headerFilter.allowSelectAll": {
-      "vue": "allow-select-all"
-    },
-    "gridBaseColumn.headerFilter.dataSource": {
-      "vue": "data-source"
-    },
-    "gridBaseColumn.headerFilter.groupInterval": {
-      "vue": "group-interval"
-    },
-    "gridBaseColumn.headerFilter.search": {
-      "angular": "dxo-search",
-      "react": "Search",
-      "vue": "DxSearch"
-    },
-    "gridBaseColumn.headerFilter.searchMode": {
-      "vue": "search-mode"
-    },
     "gridBaseColumn.hidingPriority": {
       "vue": "hiding-priority"
     },
@@ -21472,33 +21586,6 @@
       "angular": "dxo-column-chooser",
       "react": "ColumnChooser",
       "vue": "DxColumnChooser"
-    },
-    "gridBaseOptions.columnChooser.allowSearch": {
-      "vue": "allow-search"
-    },
-    "gridBaseOptions.columnChooser.emptyPanelText": {
-      "vue": "empty-panel-text"
-    },
-    "gridBaseOptions.columnChooser.position": {
-      "angular": "dxo-position",
-      "react": "Position",
-      "vue": "DxPosition"
-    },
-    "gridBaseOptions.columnChooser.search": {
-      "angular": "dxo-search",
-      "react": "Search",
-      "vue": "DxSearch"
-    },
-    "gridBaseOptions.columnChooser.searchTimeout": {
-      "vue": "search-timeout"
-    },
-    "gridBaseOptions.columnChooser.selection": {
-      "angular": "dxo-selection",
-      "react": "Selection",
-      "vue": "DxSelection"
-    },
-    "gridBaseOptions.columnChooser.sortOrder": {
-      "vue": "sort-order"
     },
     "gridBaseOptions.columnFixing": {
       "angular": "dxo-column-fixing",
@@ -21638,26 +21725,6 @@
       "react": "FilterPanel",
       "vue": "DxFilterPanel"
     },
-    "gridBaseOptions.filterPanel.customizeText": {
-      "vue": "customize-text"
-    },
-    "gridBaseOptions.filterPanel.filterEnabled": {
-      "vue": "filter-enabled"
-    },
-    "gridBaseOptions.filterPanel.texts": {
-      "angular": "dxo-texts",
-      "react": "Texts",
-      "vue": "DxTexts"
-    },
-    "gridBaseOptions.filterPanel.texts.clearFilter": {
-      "vue": "clear-filter"
-    },
-    "gridBaseOptions.filterPanel.texts.createFilter": {
-      "vue": "create-filter"
-    },
-    "gridBaseOptions.filterPanel.texts.filterEnabledHint": {
-      "vue": "filter-enabled-hint"
-    },
     "gridBaseOptions.filterRow": {
       "angular": "dxo-filter-row",
       "react": "FilterRow",
@@ -21738,28 +21805,6 @@
       "angular": "dxo-header-filter",
       "react": "HeaderFilter",
       "vue": "DxHeaderFilter"
-    },
-    "gridBaseOptions.headerFilter.allowSearch": {
-      "vue": "allow-search"
-    },
-    "gridBaseOptions.headerFilter.allowSelectAll": {
-      "vue": "allow-select-all"
-    },
-    "gridBaseOptions.headerFilter.search": {
-      "angular": "dxo-search",
-      "react": "Search",
-      "vue": "DxSearch"
-    },
-    "gridBaseOptions.headerFilter.searchTimeout": {
-      "vue": "search-timeout"
-    },
-    "gridBaseOptions.headerFilter.texts": {
-      "angular": "dxo-texts",
-      "react": "Texts",
-      "vue": "DxTexts"
-    },
-    "gridBaseOptions.headerFilter.texts.emptyValue": {
-      "vue": "empty-value"
     },
     "gridBaseOptions.highlightChanges": {
       "vue": "highlight-changes"
@@ -21910,15 +21955,6 @@
       "react": "SearchPanel",
       "vue": "DxSearchPanel"
     },
-    "gridBaseOptions.searchPanel.highlightCaseSensitive": {
-      "vue": "highlight-case-sensitive"
-    },
-    "gridBaseOptions.searchPanel.highlightSearchText": {
-      "vue": "highlight-search-text"
-    },
-    "gridBaseOptions.searchPanel.searchVisibleColumnsOnly": {
-      "vue": "search-visible-columns-only"
-    },
     "gridBaseOptions.selectedRowKeys": {
       "vue": "selected-row-keys"
     },
@@ -21941,18 +21977,6 @@
       "angular": "dxo-sorting",
       "react": "Sorting",
       "vue": "DxSorting"
-    },
-    "gridBaseOptions.sorting.ascendingText": {
-      "vue": "ascending-text"
-    },
-    "gridBaseOptions.sorting.clearText": {
-      "vue": "clear-text"
-    },
-    "gridBaseOptions.sorting.descendingText": {
-      "vue": "descending-text"
-    },
-    "gridBaseOptions.sorting.showSortIndexes": {
-      "vue": "show-sort-indexes"
     },
     "gridBaseOptions.stateStoring": {
       "angular": "dxo-state-storing",
@@ -21980,6 +22004,30 @@
     "gridBaseOptions.wordWrapEnabled": {
       "vue": "word-wrap-enabled"
     },
+    "headerFilter": {
+      "angular": "dxo-header-filter",
+      "react": "HeaderFilter",
+      "vue": "DxHeaderFilter"
+    },
+    "headerFilter.allowSearch": {
+      "vue": "allow-search"
+    },
+    "headerFilter.allowSelectAll": {
+      "vue": "allow-select-all"
+    },
+    "headerFilter.search": {
+      "angular": "dxo-search",
+      "react": "Search",
+      "vue": "DxSearch"
+    },
+    "headerFilter.searchTimeout": {
+      "vue": "search-timeout"
+    },
+    "headerFilter.texts": {
+      "angular": "dxo-texts",
+      "react": "Texts",
+      "vue": "DxTexts"
+    },
     "headerFilterSearchConfig": {
       "angular": "dxo-header-filter-search-config",
       "react": "HeaderFilterSearchConfig",
@@ -21987,6 +22035,14 @@
     },
     "headerFilterSearchConfig.editorOptions": {
       "vue": "editor-options"
+    },
+    "headerFilterTexts": {
+      "angular": "dxo-header-filter-texts",
+      "react": "HeaderFilterTexts",
+      "vue": "DxHeaderFilterTexts"
+    },
+    "headerFilterTexts.emptyValue": {
+      "vue": "empty-value"
     },
     "headerPanel": {
       "angular": "dxo-header-panel",
@@ -21997,6 +22053,33 @@
       "angular": "dxo-dragging",
       "react": "Dragging",
       "vue": "DxDragging"
+    },
+    "headerPanel.dragging.dropFeedbackMode": {
+      "vue": "drop-feedback-mode"
+    },
+    "headerPanel.dragging.onDragChange": {
+      "vue": "@drag-change"
+    },
+    "headerPanel.dragging.onDragEnd": {
+      "vue": "@drag-end"
+    },
+    "headerPanel.dragging.onDragMove": {
+      "vue": "@drag-move"
+    },
+    "headerPanel.dragging.onDragStart": {
+      "vue": "@drag-start"
+    },
+    "headerPanel.dragging.onRemove": {
+      "vue": "@remove"
+    },
+    "headerPanel.dragging.onReorder": {
+      "vue": "@reorder"
+    },
+    "headerPanel.dragging.scrollSensitivity": {
+      "vue": "scroll-sensitivity"
+    },
+    "headerPanel.dragging.scrollSpeed": {
+      "vue": "scroll-speed"
     },
     "headerPanel.itemCssClass": {
       "vue": "item-css-class"
@@ -22585,6 +22668,20 @@
     "searchBoxMixinOptions.searchValue": {
       "vue": "search-value"
     },
+    "searchPanel": {
+      "angular": "dxo-search-panel",
+      "react": "SearchPanel",
+      "vue": "DxSearchPanel"
+    },
+    "searchPanel.highlightCaseSensitive": {
+      "vue": "highlight-case-sensitive"
+    },
+    "searchPanel.highlightSearchText": {
+      "vue": "highlight-search-text"
+    },
+    "searchPanel.searchVisibleColumnsOnly": {
+      "vue": "search-visible-columns-only"
+    },
     "selectionChangeInfo.addedItems": {
       "vue": "added-items"
     },
@@ -22604,6 +22701,23 @@
     },
     "selectionConfiguration.showCheckBoxesMode": {
       "vue": "show-check-boxes-mode"
+    },
+    "sorting": {
+      "angular": "dxo-sorting",
+      "react": "Sorting",
+      "vue": "DxSorting"
+    },
+    "sorting.ascendingText": {
+      "vue": "ascending-text"
+    },
+    "sorting.clearText": {
+      "vue": "clear-text"
+    },
+    "sorting.descendingText": {
+      "vue": "descending-text"
+    },
+    "sorting.showSortIndexes": {
+      "vue": "show-sort-indexes"
     },
     "store": {
       "vue": "store"
@@ -22668,6 +22782,9 @@
     "tabPanelItemInfo.itemElement": {
       "vue": "item-element"
     },
+    "tabPanelItemInfo.itemIndex": {
+      "vue": "item-index"
+    },
     "targetedAppointmentInfo.appointmentData": {
       "angular": "dxo-appointment-data",
       "react": "AppointmentData",
@@ -22690,21 +22807,6 @@
     },
     "textMessage.isEdited": {
       "vue": "is-edited"
-    },
-    "toolbar": {
-      "angular": "dxo-toolbar",
-      "react": "Toolbar",
-      "vue": "DxToolbar"
-    },
-    "toolbar.items": {
-      "angular": "dxi-item",
-      "react": "Item",
-      "vue": "DxItem"
-    },
-    "toolbarItem": {
-      "angular": "dxo-toolbar-item",
-      "react": "ToolbarItem",
-      "vue": "DxToolbarItem"
     },
     "toolbarPreparingInfo.toolbarOptions": {
       "vue": "toolbar-options"

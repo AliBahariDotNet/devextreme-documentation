@@ -4,7 +4,10 @@ type: eventType
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Raised after a card is created.
 
 ---
-<!-- Description goes here -->
+Main article: [onCardPrepared](/api-reference/10%20UI%20Components/dxCardView/1%20Configuration/onCardPrepared.md '/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#onCardPrepared')
+
+#####See Also#####
+#include common-link-handleevents

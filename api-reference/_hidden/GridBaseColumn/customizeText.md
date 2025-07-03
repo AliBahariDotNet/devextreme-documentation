@@ -11,7 +11,7 @@ Information on the current cell.
 
 ##### field(cellInfo.groupInterval): String | Number
 Indicates how header filter values were combined into groups. Available if **target** is *"headerFilter"*.  
-See the **headerFilter**.[groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter/groupInterval.md '{basewidgetpath}/Configuration/columns/headerFilter/#groupInterval') property's description for possible values.
+See the **headerFilter**.[groupInterval](/api-reference/40%20Common%20Types/15%20grids/ColumnHeaderFilter/groupInterval.md '{basewidgetpath}/Configuration/columns/headerFilter/#groupInterval') property's description for possible values.
 
 ##### field(cellInfo.target): String
 The UI element where the **customizeText** function was called: *"row"*, *"filterRow"*, *"headerFilter"*, *"search"*, *"filterPanel"*, or *"filterBuilder"*.
@@ -40,7 +40,7 @@ The `this` keyword refers to the column's configuration.
             columns: [{
                 dataField: "Temperature",
                 customizeText: function(cellInfo) {
-                    return cellInfo.value + " &deg;C";
+                    return cellInfo.value + " °C";
                 }
             }]
         });
@@ -67,7 +67,7 @@ The `this` keyword refers to the column's configuration.
     })
     export class AppComponent {
         customizeText(cellInfo) {
-            return cellInfo.value + " &deg;C";
+            return cellInfo.value + " °C";
         }
     }
 
@@ -116,7 +116,7 @@ The `this` keyword refers to the column's configuration.
         },
         methods: {
             customizeText(cellInfo) {
-                return cellInfo.value + " &deg;C";
+                return cellInfo.value + " °C";
             }
         }
     }
@@ -133,7 +133,7 @@ The `this` keyword refers to the column's configuration.
     
     class App extends React.Component {
         customizeText = (cellInfo) => {
-            return cellInfo.value + " &deg;C";
+            return cellInfo.value + " °C";
         }
         render() {
             return (
@@ -158,7 +158,7 @@ The `this` keyword refers to the column's configuration.
 
     <script type="text/javascript">
         function customizeText(cellInfo) {
-            return cellInfo.value + " &deg;C";
+            return cellInfo.value + " °C";
         }
     </script>
 

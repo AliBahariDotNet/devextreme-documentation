@@ -5,7 +5,11 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies whether a user can reorder columns.
 
 ---
-<!-- Description goes here -->
+This property reorders header panel items.
+
+#include btn-open-demo with {
+    href: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/CardView/ColumnReordering"
+}

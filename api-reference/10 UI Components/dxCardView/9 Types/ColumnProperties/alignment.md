@@ -4,7 +4,7 @@ type: Enums.HorizontalAlignment | undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Aligns the content of the entire column.
 
 ---
-<!-- Description goes here -->
+The default alignment for all types of content is *'left'*.

@@ -1,10 +1,11 @@
 ---
 id: dxCardView.Options.toolbar
-type: Toolbar
+type: dxCardViewToolbar
+inheritsType: dxCardViewToolbar
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures the toolbar.
 
 ---
 <!-- Description goes here -->

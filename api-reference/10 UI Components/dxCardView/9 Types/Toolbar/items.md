@@ -1,10 +1,13 @@
 ---
-id: Toolbar.items
-type: Array<Enums.PredefinedToolbarItem, ToolbarItem>
+id: dxCardViewToolbar.items
+type: Array<Enums.PredefinedToolbarItem, dxCardViewToolbarItem>
+inheritsType: dxCardViewToolbarItem
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+<!-- %shortDescription% -->
 
 ---
-<!-- Description goes here -->
+<!-- %fullDescription% -->
+
+<!-- import * from 'api-reference\10 UI Components\dxCardView\9 Types\ToolbarItem\ToolbarItem.md' -->

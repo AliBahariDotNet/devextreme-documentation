@@ -1,5 +1,5 @@
 ---
-id: Toolbar
+id: dxCardViewToolbar
 module: ui/card_view
 export: Toolbar
 type: Object
@@ -7,7 +7,7 @@ generateTypeLink:
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures the toolbar.
 
 ---
 <!-- Description goes here -->

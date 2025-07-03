@@ -4,7 +4,10 @@ type: eventType
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Raised before the context menu is rendered.
 
 ---
-<!-- Description goes here -->
+Main article: [onContextMenuPreparing](/api-reference/10%20UI%20Components/dxCardView/1%20Configuration/onContextMenuPreparing.md '/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#onContextMenuPreparing')
+
+#####See Also#####
+#include common-link-handleevents

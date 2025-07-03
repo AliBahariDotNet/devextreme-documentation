@@ -5,7 +5,7 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies whether data can be filtered by this column.
 
 ---
 <!-- Description goes here -->

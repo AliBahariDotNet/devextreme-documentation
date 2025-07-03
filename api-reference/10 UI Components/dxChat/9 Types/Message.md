@@ -4,11 +4,10 @@ module: ui/chat
 export: Message
 type: TextMessage | ImageMessage
 generateTypeLink: 
-inherits: TextMessage,ImageMessage
+inheritsType: TextMessage,ImageMessage
 ---
 ---
 ##### shortDescription
 A configuration object for a message.
 
 ---
-<!-- Description goes here -->

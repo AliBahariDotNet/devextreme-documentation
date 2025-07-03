@@ -1,11 +1,11 @@
 ---
-id: ToolbarItem.location
+id: dxCardViewToolbarItem.location
 type: Enums.ToolbarItemLocation
 default: 'after'
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies toolbar item location.
 
 ---
 <!-- Description goes here -->
